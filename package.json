@@ -1,0 +1,34 @@
+{
+  "name": "highlightjs-advpl",
+  "version": "0.1.1",
+  "description": "ADVPL syntax highlighting plugin for highlight.js",
+  "main": "src/advpl.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusnogueira/highlightjs-advpl.git"
+  },
+  "keywords": [
+    "advpl",
+    "hljs",
+    "highlightjs",
+    "highlight.js"
+  ],
+  "author": "Matheus Nogueira",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/matheusnogueira/highlightjs-advpl/issues"
+  },
+  "homepage": "https://github.com/matheusnogueira/highlightjs-advpl#readme",
+  "devDependencies": {
+    "highlight.js": "^11.8.0",
+    "mocha": "^10.2.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "mkdirp": "^3.0.1"
+  }
+}
